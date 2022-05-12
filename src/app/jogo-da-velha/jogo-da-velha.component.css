@@ -1,0 +1,110 @@
+html, body{
+  padding: 0;
+  border: 0;
+}
+section{
+  background-color: aliceblue;
+}
+.jogo-da-velha{
+  width: 100%;
+  max-width: 600px;
+  min-height: 90vh;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  border: 1.5px solid #0000FF;
+background-color: white;
+  border-radius: 5%;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+h1{
+  font-size: 2.5rem;
+}
+.content{
+  max-width: 500px;
+  min-height: 90vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5%;
+
+}
+.jogo-da-velha h1{
+  text-align:  center;
+
+}
+
+.principal {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+a.botao{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28%;
+  text-align: center;
+  color: white;
+  background-color:  #0000FF;;
+  padding: 8px 16px;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+a.link, a:visited{
+  text-decoration: none;
+  /* background-color: 4px solid #0000FF; */
+  background-color:  #6495ED;
+}
+
+a:hover, a:active{
+  background-color:  #0000FF;
+  color: white;
+}
+
+ul li{
+  list-style: none;
+  width: 100%;
+  max-width:140px;
+  height: 140px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:  50% 50%;
+  cursor: pointer;
+}
+
+.kz-border-bottom{
+  border-bottom: 8px solid black;
+}
+
+.kz-border-right{
+  border-right: 8px solid black;
+}
+
+.kz-img-x{
+  background-image: url('/assets/imagens/x.png');
+}
+
+.kz-img-o{
+  background-image: url('/assets/imagens/o.png');
+}
+
+.kz-cor-vitoria{
+  background-color: lightgreen;
+}
+
+.resultado span{
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+
+@media (max-width: 550px){
+  ul li{
+   width: 90%;
+    max-width: 95px;
+    height: 95px;}
+}
